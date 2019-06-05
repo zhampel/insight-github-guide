@@ -1,4 +1,7 @@
 # insight-github-guide
+
+[![Build Status](https://travis-ci.org/zhampel/insight-github-guide.svg?branch=master)](https://travis-ci.org/zhampel/insight-github-guide)
+
 Guide to using GitHub for Insight Fellows.
 
 Slides providing overview of contributing with teams to GitHub repos.
