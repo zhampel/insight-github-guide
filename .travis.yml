@@ -7,7 +7,8 @@ python:
 # install jupyter and get reveal.js as we will need it to build the website
 # from Travis
 install:
-    - pip install -r requirements.txt
+    - pip install jupyter
+    #- pip install -r requirements.txt
     - wget https://github.com/hakimel/reveal.js/archive/master.zip
     - unzip master.zip
     - mv reveal.js-master reveal.js
