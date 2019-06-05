@@ -15,8 +15,7 @@ install:
 
 
 script:
-    - mv notebooks/insight_github_guide_slides.ipynb .; jupyter nbconvert insight_github_guide_slides.ipynb --to slides --reveal-prefix=reveal.js --template output_toggle.tpl; mv insight_github_guide_slides.ipynb notebooks/
-    #- mv notebooks/insight_github_guide_slides.ipynb .; jupyter nbconvert insight_github_guide_slides.ipynb --to slides --reveal-prefix=reveal.js --template output_toggle.tpl --SlidesExporter.reveal_transition=none --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_theme=serif; mv insight_github_guide_slides.ipynb notebooks/
+    - mv notebooks/insight_github_guide_slides.ipynb .; jupyter nbconvert insight_github_guide_slides.ipynb --to slides --reveal-prefix=reveal.js --template output_toggle.tpl --SlidesExporter.reveal_transition=none --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_theme=serif; mv insight_github_guide_slides.ipynb notebooks/
 
 
 after_success: |
